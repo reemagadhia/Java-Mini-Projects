@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.tatva.pojo.Employee" table="employee">
+        <id name="id" type="int" column="userid">
+            <generator class="increment" />
+        </id>
+        <property name="employeeName">
+            <column name="employeeName" />
+        </property>
+        <property name="employeeEmail">
+            <column name="employeeEmail" />
+        </property>
+        <property name="employeePassword">
+            <column name="employeePassword" />
+        </property>
+    </class>
+</hibernate-mapping>

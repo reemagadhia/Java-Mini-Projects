@@ -1,0 +1,208 @@
+.form-control{
+    width: 296px;
+    height: 41px;
+	font-size:15px;
+}
+.btn-login{
+	background-color: #788aac;
+	color:white;
+	border-radius: 0px;
+}
+.btn-login:hover{
+	color:white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn-register{
+	background-color: #788aac;
+	color:white;
+	border-radius: 0px;
+}
+.btn-register:hover{
+	color:white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn-submit{
+	background-color: #788aac;
+	color:white;
+	border-radius: 0px;
+	margin-top: 20px;
+}
+.btn-submit:hover{
+	color:white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.header{
+	height:100px;
+	text-align: center;
+	background-color: #788aac;
+}
+h2{
+	margin-top: 3px;
+    padding-top: 29px;
+    color:white;
+    font-weight: 400;
+    font-size:36px;
+}
+.container-fluid{
+	padding-right: 0px;
+    padding-left: 0px;
+    height: 88px;
+}
+form{
+	margin-top: 40px;
+}
+.form-horizontal .form-group {
+    padding: 0px;
+}
+.content{
+	border: 3px solid #788aac;
+}
+.control-label{
+	font-size:15px;
+	color:#788aac;
+}
+.radio-inline{
+	font-size:15px;
+}
+.radio-inline input[type=radio] {
+    margin-left: -47px;
+    width: 100%;
+    height: 1em;
+}
+.table{
+	width:72%;
+}
+h2{
+	font-weight: 600;
+	margin-top: -7px;
+    margin-bottom: 36px;
+}
+h3{
+	font-weight:600;
+	font-size: 33px;
+	margin-bottom: 36px;
+}
+.btn-address{
+	background-color:#788aac; 
+	color:white;
+	margin-left: 20px;
+	border-radius: 0px;
+}
+.btn-address:hover{
+	color:white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn-edit{
+	background-color:#788aac; 
+	color:white;
+	margin-left: 20px;
+	border-radius: 0px;
+}
+.btn-edit:hover{
+	color:white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn-delete{
+	background-color:#788aac; 
+	color:white;
+	margin-left: 20px;
+	border-radius: 0px;
+}
+.btn-delete:hover{
+	color:white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+td{
+	text-align: center;
+}
+
+th {
+    text-align: center;
+    background-color: #788aac;
+    color: white;
+}
+.table{
+	margin-top: 50px;
+}
+.btn-menu{
+	background-color:white; 
+	color:#788aac;
+	border:1px solid #788aac;
+	margin-left: 20px;
+	border-radius: 0px;
+}
+.btn-menu:hover{
+	color:#788aac;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn-logout{
+	background-color:white; 
+	color:#788aac;
+	border:1px solid #788aac;
+	margin-left: -28px;
+	border-radius: 0px;
+}
+.btn-logout:hover{
+	color:#788aac;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.menu{
+	position: relative;
+    top: -54px;
+    text-align: left;
+}
+.menu-logout{
+	position: relative;
+    top: -86px;
+    text-align: right;
+    margin-right: 21px;
+    width: 40px;
+    float: right
+}
+#addressTable{
+	width: 30%;
+}
+#userTable{
+	width: 47%;
+}
+a{
+	text-decoration: none;
+	color:#788aac;
+}
+a:hover,a:focus{
+	text-decoration: none;
+	color:#788aac;
+}
+#pwderror{
+	display:none;
+	color:red;
+	margin-top: 10px;
+    font-size: 16px;
+}
+#cfmpwderror{
+	display:none;
+	color:red;
+	margin-top: 10px;
+    font-size: 16px;
+}
+#moerror{
+	display:none;
+	color:red;
+	margin-top: 10px;
+    font-size: 16px;
+}
+.loginMessage{
+	color:red;
+	font-size: 16px;
+	text-align: center;
+}
+.logoutMessage{
+	color:green;
+	font-size: 16px;
+	text-align: center;
+}
+.registerMessage{
+	color:green;
+	font-size: 16px;
+	text-align: center;
+}
